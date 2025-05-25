@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Azeret Mono", monospace;
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  box-sizing: border-box;
+  color: #0d1321;
+}
+.centerContent {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+/* nav bar design  */
+
+nav.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+nav.menu a {
+  font-size: 28px;
+  font-weight: 600;
+  text-decoration: none;
+}
+nav.menu button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* hero section Design */
+
+.hero {
+  background-image: url(/assets/Hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  margin: 30px 0px;
+}
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.hero .content img {
+  width: 200px;
+  margin-top: 70px;
+}
+.hero .content h1 {
+  font-size: 32px;
+  background-color: crimson;
+  padding: 6px;
+  border-radius: 4px;
+  color: white;
+}
+.hero .content p {
+  text-align: center;
+  width: 80%;
+  line-height: 30px;
+}
+.hero .content button {
+  padding: 10px 20px;
+  background-color: #0d1321;
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+/* Why web developement design  */
+
+.whyWebDevelopement {
+  margin: 70px 0px;
+}
+.whyWebDevelopement .topContent {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.whyWebDevelopement .topContent h1 {
+  margin: 30px 0px;
+}
+.whyWebDevelopement .topContent p {
+  line-height: 28px;
+  margin-bottom: 70px;
+}
+.whyWebDevelopement .content .importance {
+  margin-top: 70px;
+}
+.whyWebDevelopement .content .importance .contents {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.whyWebDevelopement .content .importance .contents img {
+  width: 400px;
+}
+.whyWebDevelopement .content .importance .contents:nth-child(2) {
+  flex-direction: row-reverse;
+}
+.whyWebDevelopement .content .importance .contents .content {
+  width: 50%;
+}
+.whyWebDevelopement .content .importance .contents .content h1 {
+  margin-bottom: 30px;
+}
+.whyWebDevelopement .content .importance .contents .content p {
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.whyWebDevelopement .content .importance .contents .content button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* My inspiration section Design  */
+.myInspiration {
+  margin: 50px 0px;
+}
+.myInspiration .content {
+  text-align: center;
+}
+.myInspiration .content h1 {
+  font-size: 30px;
+}
+
+.myInspiration .content p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 30px auto;
+  width: 80%;
+  display: block;
+}
+.myInspiration .content iframe {
+  border: 20px solid rgb(230, 230, 230);
+  border-radius: 10px;
+  margin-top: 80px;
+}
+
+/* My current content design  */
+
+.currentTarget,
+.nextTarget {
+  margin: 100px 0px;
+}
+.currentTarget .content h1,
+.nextTarget .content h1 {
+  text-align: center;
+}
+.currentTarget .content p:nth-child(2),
+.nextTarget .content p.desc {
+  width: 60%;
+  margin: 30px auto;
+  text-align: center;
+}
+.currentTarget .content .target {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+.currentTarget .content .target .item {
+  background-color: rgba(245, 245, 220, 0.556);
+  padding: 30px;
+  border-radius: 10px;
+}
+.currentTarget .content .target .item h2,
+.nextTarget .content .target .item h2 {
+  margin: 20px 0px;
+}
+.currentTarget .content .target .item a,
+.nextTarget .content .target .item a {
+  margin-top: 20px;
+  display: inline-block;
+}
+.currentTarget .content .target .item:nth-child(2) {
+  background-color: rgba(231, 201, 201, 0.49);
+}
+.currentTarget .content .target .item:nth-child(3) {
+  background-color: rgba(201, 223, 231, 0.468);
+}
+
+/* Next target desing  */
+
+.nextTarget .content .target .item {
+  border: 1px solid rgb(192, 192, 192);
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+}
+.nextTarget .content .target .item img {
+  width: 100px;
+}
+
+/* support section design  */
+
+.support {
+  background: linear-gradient(#0d13218a), url("../assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.support .content {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.support .content h1 {
+  color: white;
+  font-size: 32px;
+}
+.support .content p {
+  color: white;
+}
+.support .content .feedback {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.support .content .feedback input[type="text"] {
+  padding: 15px 20px;
+  width: 500px;
+  border-radius: 5px;
+  border: none;
+}
+.support .content .feedback input[type="submit"] {
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
