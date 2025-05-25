@@ -34,7 +34,7 @@ nav.menu button {
 /* hero section Design */
 
 .hero {
-  background-image: url(/assets/Hero-bg.png);
+  background-image: url("/assets/Hero-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 70vh;
